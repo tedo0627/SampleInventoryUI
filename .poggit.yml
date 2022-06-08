@@ -1,0 +1,11 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/tedo0627/SampleInventoryUI
+build-by-default: true
+branches:
+- master
+projects:
+  SampleInventoryUI:
+    path: ""
+    libs:
+    - src: tedo0627/InventoryUI/InventoryUI
+      version: 1.0.0
+...
