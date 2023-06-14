@@ -10,6 +10,7 @@ class Sample2InventoryCommand extends Command {
 
     public function __construct() {
         parent::__construct("sampleinventory2", "Open inventory command", "/sampleinventory2", []);
+        $this->setPermission("sampleinventoryui.command.sampleinventory2");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args) {
