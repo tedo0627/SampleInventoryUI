@@ -4,13 +4,14 @@ namespace tedo0627\sampleinventoryui;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+use pocketmine\permission\DefaultPermissions;
 use pocketmine\player\Player;
 
 class Sample2InventoryCommand extends Command {
 
     public function __construct() {
         parent::__construct("sampleinventory2", "Open inventory command", "/sampleinventory2", []);
-        $this->setPermission("sampleinventoryui.command.sampleinventory2");
+        $this->setPermission(DefaultPermissions::ROOT_USER);
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args) {
