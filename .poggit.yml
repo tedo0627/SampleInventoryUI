@@ -7,5 +7,6 @@ projects:
     path: ""
     libs:
     - src: tedo0627/InventoryUI/InventoryUI
-      version: 1.1.1
+      version: ^1.1.1
+      branch: master
 ...
