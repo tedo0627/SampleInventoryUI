@@ -3,8 +3,10 @@
   "description": "This is the PocketMine plugin that is sample for using InventoryUI",
   "license": "MIT",
   "require": {
-    "pocketmine/pocketmine-mp": "^5.6.0",
-    "tedo0627/inventoryui": "1.1.0"
+    "tedo0627/inventoryui": "^1.1.1"
+  },
+  "require-dev": {
+    "pocketmine/pocketmine-mp": "^5.31.0"
   },
   "autoload": {
     "psr-4": {
